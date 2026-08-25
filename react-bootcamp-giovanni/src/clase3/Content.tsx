@@ -10,9 +10,7 @@ createRoot(document.getElementById('root')!).render(
 function Content() {
     
     return(
-        <div>
-            <Counter/>
-        </div>
+        <Counter/>
     )
 }
 

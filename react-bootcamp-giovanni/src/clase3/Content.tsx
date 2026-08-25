@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Counter from "./Counter"
+import Like from './Like'
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
@@ -10,7 +11,10 @@ createRoot(document.getElementById('root')!).render(
 function Content() {
     
     return(
-        <Counter/>
+        <div>
+            <Counter/>
+            <Like/>
+        </div>
     )
 }
 

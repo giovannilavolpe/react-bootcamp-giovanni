@@ -13,7 +13,7 @@ function Counter() {
           >
           Pulsa aquí para sumar
         </button>
-        <span style={{ margin: "10px"}}>{count}</span>
+        <span style={{ margin: "15px"}}>{count}</span>
         <button
           type="button"
           className="counter"

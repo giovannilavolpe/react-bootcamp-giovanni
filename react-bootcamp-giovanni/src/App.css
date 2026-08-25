@@ -17,8 +17,33 @@
   }
 }
 
+.like {
+  height: 40px;
+  width: 50px;
+  background-color: rgb(93, 93, 93);
+  border-radius: 6px;
+}
+
+.liked {
+  height: 40px;
+  width: 50px;
+  background-color: rgba(0, 63, 0, 0.762);
+  border: green 1px solid;
+  border-radius: 6px;
+}
+
+.disliked {
+  height: 40px;
+  width: 50px;
+  background-color: rgba(113, 0, 0, 0.526);
+  border: red 1px solid;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
 .hero {
   position: relative;
+  
 
   .base,
   .framework,

@@ -12,7 +12,7 @@ function Like() {
           onClick={() => setLike((like) => !like)
           }
           >
-            <i class="fa-solid fa-thumbs-up"></i>
+            <i className="fa-solid fa-thumbs-up"></i>
             {like ? "Like" : "Dislike"}
         </button>
       </section>

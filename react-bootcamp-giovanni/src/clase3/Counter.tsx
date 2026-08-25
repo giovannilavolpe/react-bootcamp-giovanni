@@ -21,6 +21,7 @@ function Counter() {
           >
           Pulsa aquí para restar
         </button>
+        {count >= 10 && <p>Contador mayor a 10</p>}
       </section>
       )
 }

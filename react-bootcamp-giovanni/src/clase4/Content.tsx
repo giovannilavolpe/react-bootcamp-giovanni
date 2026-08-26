@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import TrafficLights from './Semaforo'
+import TrafficLights from './TrafficLights'
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>

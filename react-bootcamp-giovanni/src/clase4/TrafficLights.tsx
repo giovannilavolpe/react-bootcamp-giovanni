@@ -6,7 +6,7 @@ function TrafficLights () {
     const [color, setColor] = useState("red")
     const [textToShow, setTextToShow] = useState("STOP")
 
-      const State = () => {
+      const ChangeState = () => {
         if (color === "red") {
           setColor ("yellow");
           setTextToShow("Caution");
@@ -28,7 +28,7 @@ function TrafficLights () {
                 type="button"
                 className="counter"
                 style={{ width: "100px", height: "50px", backgroundColor:color, color:"black"}}
-                onClick={State}
+                onClick={ChangeState}
                 >{textToShow}
             </button>
         </div>

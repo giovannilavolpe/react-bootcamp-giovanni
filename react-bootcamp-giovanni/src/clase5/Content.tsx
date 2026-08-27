@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import '../App.css'
 import ListNames from './ListNames'
+import AddDeleteNames from './AddDeleteNames'
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
@@ -10,9 +12,11 @@ createRoot(document.getElementById('root')!).render(
 function Content() {
     
     return(
-        <div>
+        <div className='exercises'>
             <ListNames/>
+            <AddDeleteNames/>
         </div>
+
     )
 }
 

@@ -9,7 +9,7 @@ function ListNames () {
         {id: 4, name: "Barua"},
         {id: 5, name: "Giovanni"},]
 
-        const [names, useNames] = useState(NAMES)
+        const [names] = useState(NAMES)
 
     return (
         <ul style={{ listStyle: 'none'}}>

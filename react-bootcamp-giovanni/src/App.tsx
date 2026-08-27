@@ -1,4 +1,4 @@
-import Content from "./clase5/Content.tsx"
+import Content from "./clase6/Content.tsx"
 
 function App() {
 

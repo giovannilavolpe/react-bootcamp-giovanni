@@ -1,3 +1,11 @@
+.whiteMode {
+  background-color: white;
+}
+
+.blackMode {
+  background-color: black;
+}
+
 .exercises {
   display: flex;
   flex-direction: row;

@@ -1,18 +1,11 @@
-import { ThemeProvider } from "./clase8.2/Context.tsx"
-import Theme from "./clase8.2/CounterContext.tsx"
 import "./App.css"
+import Content from "./clase9/Content"
 
 function App() {
 
   return (
     <div>
-      {/* <CountDown/> */}
-      {/* <ContadorProvider>
-        <CounterContext/>
-      </ContadorProvider> */}
-      <ThemeProvider>
-        <Theme/>
-      </ThemeProvider>
+      <Content/>
     </div>
   )
 }

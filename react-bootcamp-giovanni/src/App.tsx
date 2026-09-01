@@ -1,5 +1,5 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom"
 import "./App.css"
+/* import { BrowserRouter, Link, Route, Routes } from "react-router-dom"
 import Clase3Page from "./pages/clase3"
 import Clase4Page from "./pages/clase4"
 import Clase5Page from "./pages/clase5"
@@ -10,10 +10,22 @@ import Clase9Page from "./pages/clase9"
 import { ContadorProvider } from "./clase8/Context"
 import Clase8_2Page from "./pages/clase8_2"
 import { ThemeProvider } from "./clase8_2/Context"
+import InfoTask from "./clase10/TaskList" */
+import Content from "./clase10/Content"
 
 function App() {
 
   return (
+    <div>
+      <Content/>
+    </div>
+  )
+}
+
+export default App
+
+
+/*
     <BrowserRouter>
     <ContadorProvider>
       <ThemeProvider>
@@ -42,7 +54,4 @@ function App() {
         </ThemeProvider>
     </ContadorProvider>
     </BrowserRouter>
-  )
-}
-
-export default App
+*/

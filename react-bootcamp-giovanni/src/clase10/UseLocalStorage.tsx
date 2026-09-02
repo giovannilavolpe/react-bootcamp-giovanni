@@ -19,19 +19,19 @@ function useLocalStorage(clave: string, valorInicial: boolean) {
 }
 
 interface ThemeProps {
-  Theme: boolean;
+  theme: boolean;
   changeTheme: () => void;
 }
 
 export const ThemeContext = createContext<ThemeProps | undefined>(undefined)
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [Theme, setTheme] = useLocalStorage("theme", false)
+  const [theme, setTheme] = useLocalStorage("theme", false)
 
   const changeTheme = () => setTheme((prevTheme: any) => !prevTheme);
 
   return (
-    <ThemeContext.Provider value={{ Theme, changeTheme }}>
+    <ThemeContext.Provider value={{ theme, changeTheme }}>
       {children}
     </ThemeContext.Provider>
   )

@@ -3,11 +3,11 @@ import { useTheme } from './UseLocalStorage';
 
 function ThemeButton({ children }: {children: ReactNode}) {
 
-    const {Theme, changeTheme} = useTheme()
+    const {theme, changeTheme} = useTheme()
             
     return (
             <div>
-                <section className={Theme ? "blackMode" : "whiteMode"}>
+                <section className={theme ? "blackMode" : "whiteMode"}>
                     <button onClick={changeTheme}> Cambie el tema</button>
                     {children}
                 </section>

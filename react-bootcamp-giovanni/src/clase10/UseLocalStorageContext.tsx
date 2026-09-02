@@ -8,7 +8,6 @@ function ThemeButton({ children }: {children: ReactNode}) {
     return (
             <div>
                 <section className={Theme ? "blackMode" : "whiteMode"}>
-                    <p>{Theme}</p>
                     <button onClick={changeTheme}> Cambie el tema</button>
                     {children}
                 </section>
